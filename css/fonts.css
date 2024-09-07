@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "future-font";
+  /*a name to be used later*/
+  font-size: 18;
+  src: url("../images/android-insomnia.ttf");
+  /*URL to font*/
+}
+@font-face {
+  font-family: "computer-font";
+  /*a name to be used later*/
+  src: url("../images/nouveau-ibm.ttf");
+  /*URL to font*/
+}
+@font-face {
+  font-family: "cursive-dialogue";
+  /*a name to be used later*/
+  src: url("../images/cuteaurora.ttf");
+  /*URL to font*/
+}
+.futuristic {
+  font-family: "future-font";
+}
+
+.cursive-dialogue {
+  font-family: "cursive-dialogue";
+  font-size: large;
+}
+
+/*# sourceMappingURL=fonts.css.map */

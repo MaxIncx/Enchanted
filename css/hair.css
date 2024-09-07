@@ -1,0 +1,86 @@
+.hair-row div {
+  display: inline-block;
+}
+
+.profile-row .hair-slot {
+  text-align: initial;
+}
+
+.hair-slot {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+.hair-slot:hover {
+  transform: scale(2);
+  z-index: 10;
+}
+.hair-slot.hair-crop-ear * {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  margin-left: -15px;
+  margin-top: -5px;
+}
+.hair-slot.hair-crop-chin * {
+  width: 104px;
+  height: 104px;
+  object-fit: cover;
+  margin-left: -12px;
+  margin-top: -2px;
+}
+.hair-slot.hair-crop-shoulder * {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-left: -10px;
+  margin-top: -5px;
+}
+
+.hair-slot * {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.flow-cell {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+.flow-cell .hair-slot {
+  text-align: left;
+}
+
+.hair-slot .brown-to-blonde {
+  filter: brightness(1.5);
+}
+.hair-slot .brown-to-darkbrown {
+  filter: brightness(0.5);
+}
+.hair-slot .brown-to-black {
+  filter: brightness(0.3);
+}
+.hair-slot .brown-to-maroon {
+  filter: hue-rotate(320deg);
+}
+.hair-slot .brown-to-blue {
+  filter: hue-rotate(185deg);
+}
+.hair-slot .brown-to-bluegreen {
+  filter: hue-rotate(143deg);
+}
+.hair-slot .brown-to-purple {
+  filter: hue-rotate(270deg);
+}
+.hair-slot .brown-to-silver {
+  filter: grayscale(0.9);
+}
+
+.monochrome-hair .hair-overlay {
+  filter: grayscale(0.9);
+}
+
+/*# sourceMappingURL=hair.css.map */

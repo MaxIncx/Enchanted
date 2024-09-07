@@ -1,0 +1,72 @@
+.email,
+.letter,
+.message {
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 10px;
+  background: #222;
+}
+
+.message table {
+  margin: 0px;
+}
+
+.message .message-portrait {
+  height: 80px;
+  width: 80px;
+}
+
+.message td {
+  vertical-align: top;
+}
+
+.message .label {
+  padding-right: 32px;
+  font-weight: 700;
+}
+
+.speaker {
+  color: #33FF33;
+  text-transform: uppercase;
+  font-family: computer-font, monospace;
+}
+
+.drone {
+  color: PINK;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.humantext {
+  font-style: italic;
+}
+
+.sue {
+  color: #b1a1d0;
+}
+
+.heir {
+  color: #f7cfcf;
+}
+
+.endOfLine {
+  color: darkred;
+  font: status-bar;
+  font-size: medium;
+  font-weight: 700;
+  letter-spacing: 16px;
+}
+
+.developerMessage {
+  font: status-bar;
+}
+
+.defiant-text {
+  color: red;
+}
+
+.compliant-text {
+  color: green;
+}
+
+/*# sourceMappingURL=dialogue.css.map */

@@ -1,0 +1,85 @@
+.compact-exercise {
+  max-width: 400px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exercise-montage-card {
+  display: flex;
+  padding-bottom: 20px;
+}
+.exercise-montage-card .montage-title {
+  font-size: larger;
+}
+.exercise-montage-card .montage-image {
+  width: 400px;
+  padding-right: 20px;
+}
+
+.exercise-link {
+  margin: 10px;
+}
+
+.exercise-plan-row {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 3px;
+  background-color: #111;
+  border: 1px solid #444;
+  border-radius: 8px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.exercise-plan-row .exercise-label {
+  display: inline-block;
+  width: 200px;
+}
+.exercise-plan-row .remove-exercise,
+.exercise-plan-row .up,
+.exercise-plan-row .down {
+  width: 40px;
+  padding-right: 10px;
+}
+
+.active-label {
+  padding-left: 10px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.exercise-montage-card {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.exercise-montage-0 .exercise-montage-card {
+  animation-delay: 0s;
+}
+
+.exercise-montage-1 .exercise-montage-card {
+  animation-delay: 0.5s;
+}
+
+.exercise-montage-2 .exercise-montage-card {
+  animation-delay: 1s;
+}
+
+.exercise-montage-3 .exercise-montage-card {
+  animation-delay: 1.5s;
+}
+
+.exercise-montage-4 .exercise-montage-card {
+  animation-delay: 2s;
+}
+
+/*# sourceMappingURL=exercise.css.map */
